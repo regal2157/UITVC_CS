@@ -1,5 +1,5 @@
 //
-//  JOViewController.h
+//  JOUITableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by John on 8/23/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JOViewController : UIViewController
+@interface JOUITableViewController : UITableViewController
 
 @end

@@ -14,13 +14,13 @@
 		52DFA20619A96EE600CE8E58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFA20519A96EE600CE8E58 /* main.m */; };
 		52DFA20A19A96EE600CE8E58 /* JOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFA20919A96EE600CE8E58 /* JOAppDelegate.m */; };
 		52DFA20D19A96EE600CE8E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DFA20B19A96EE600CE8E58 /* Main.storyboard */; };
-		52DFA21019A96EE600CE8E58 /* JOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFA20F19A96EE600CE8E58 /* JOViewController.m */; };
 		52DFA21219A96EE600CE8E58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DFA21119A96EE600CE8E58 /* Images.xcassets */; };
 		52DFA21919A96EE600CE8E58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DFA21819A96EE600CE8E58 /* XCTest.framework */; };
 		52DFA21A19A96EE600CE8E58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DFA1F919A96EE600CE8E58 /* Foundation.framework */; };
 		52DFA21B19A96EE600CE8E58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DFA1FD19A96EE600CE8E58 /* UIKit.framework */; };
 		52DFA22319A96EE600CE8E58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52DFA22119A96EE600CE8E58 /* InfoPlist.strings */; };
 		52DFA22519A96EE600CE8E58 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFA22419A96EE600CE8E58 /* UITableViewController_Challenge_SolutionTests.m */; };
+		52DFA23019A9700200CE8E58 /* JOUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DFA22F19A9700200CE8E58 /* JOUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		52DFA20819A96EE600CE8E58 /* JOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOAppDelegate.h; sourceTree = "<group>"; };
 		52DFA20919A96EE600CE8E58 /* JOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOAppDelegate.m; sourceTree = "<group>"; };
 		52DFA20C19A96EE600CE8E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52DFA20E19A96EE600CE8E58 /* JOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JOViewController.h; sourceTree = "<group>"; };
-		52DFA20F19A96EE600CE8E58 /* JOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOViewController.m; sourceTree = "<group>"; };
 		52DFA21119A96EE600CE8E58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52DFA21719A96EE600CE8E58 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DFA21819A96EE600CE8E58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		52DFA22019A96EE600CE8E58 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		52DFA22219A96EE600CE8E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52DFA22419A96EE600CE8E58 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		52DFA22E19A9700200CE8E58 /* JOUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOUITableViewController.h; sourceTree = "<group>"; };
+		52DFA22F19A9700200CE8E58 /* JOUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				52DFA20819A96EE600CE8E58 /* JOAppDelegate.h */,
 				52DFA20919A96EE600CE8E58 /* JOAppDelegate.m */,
 				52DFA20B19A96EE600CE8E58 /* Main.storyboard */,
-				52DFA20E19A96EE600CE8E58 /* JOViewController.h */,
-				52DFA20F19A96EE600CE8E58 /* JOViewController.m */,
+				52DFA22E19A9700200CE8E58 /* JOUITableViewController.h */,
+				52DFA22F19A9700200CE8E58 /* JOUITableViewController.m */,
 				52DFA21119A96EE600CE8E58 /* Images.xcassets */,
 				52DFA20019A96EE600CE8E58 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DFA23019A9700200CE8E58 /* JOUITableViewController.m in Sources */,
 				52DFA20619A96EE600CE8E58 /* main.m in Sources */,
-				52DFA21019A96EE600CE8E58 /* JOViewController.m in Sources */,
 				52DFA20A19A96EE600CE8E58 /* JOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
